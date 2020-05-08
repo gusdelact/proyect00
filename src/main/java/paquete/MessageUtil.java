@@ -8,13 +8,13 @@ public class MessageUtil {
   }
 
   public String printMessage() {
-   
+   System.err.println("hola gusugus");
     return message;
   }
 
   public String salutationMessage() {
     message = "Hi!" + message;
-   
+   System.err.println(message);
     return message;
   }
 }
