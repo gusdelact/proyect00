@@ -10,6 +10,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - mvn test
       - mvn install
       - mvn sonar:sonar -Dsonar.projectKey=proyect00  -Dsonar.host.url=http://54.90.207.91  -Dsonar.login=d0bb7f2f65440f98153b22196f76c87f0911409a
   post_build:
